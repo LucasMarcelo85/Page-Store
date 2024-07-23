@@ -1,36 +1,170 @@
-# Page-Store
-pageline de venda virtual
+<center>
 
-# <h1> Dev. Marcelo Souza</h1>
-<p>( apresentação )</p>
+# ✨Drip-Store | eCommerce✨
 
-<strong>Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) e estou iniciando minha jornada na área de programação.
-Tenho um grande interesse em desenvolver minhas habilidades técnicas e criar soluções inovadoras. Atualmente, estou trabalhando em meus primeiros projetos, onde estou aplicando os conhecimentos adquiridos no curso e explorando novas tecnologias.</strong>
+</center>
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=LucasMarcelo85&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=LucasMarcelo85&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=LucasMarcelo85&show_icons=true" />
-</picture>
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+## Sobre a Drip-Store
 
+A Drip-Store é um E-commerce feito em React com JavaScript, trata-se do projeto final desenvolvido durante a imersão Full-Stack oferecido pelo governo do estad
+do Ceará em parceria com o Instituto Euvaldo Lovaldi (IEL) e a ADECE
 
-<div style="display: inline_block"><br>
-  <a>
-    <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+## Iniciar
+
+-   `git clone https://github.com/DevSaLLein/drip-store.git`
+
+-   `cd drip-store`
+
+-   `npm i`
+
+-   `npm run dev`
+
+-   `abra no seu navergador na url localhost:3000`
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Man Technologist" width="25" height="25" /> Tecnologias utilizadas
+
+<div style="display: flex; align-items: flex-start;">
+    <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="100" height="100" />
+    <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="100" height="100" />
+    <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="100" height="100" />
+    <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="100" height="100" />
 </div>
+
+## <img src="https://github.com/user-attachments/assets/27d4632a-0298-4816-9131-9f762ff14a60" width="25" height="25"/> Organização de Pastas
+
+```
+├── .vscode/
+│    ├── settings.json
+│
+├── public/
+│
+│    ├── IMG/
+│    │
+│    │    ├── collection-images/
+│    │    │   ├── collection-1.png
+│    │    │   ├── collection-2.png
+│    │    │   ├── collection-3.png
+│    │    │
+│    │    ├── home-images/
+│    │    │   ├── home-slide-1.jpeg
+│    │    │   ├── home-slide-2.jpeg
+│    │    │   ├── home-slide-3.jpeg
+│    │    │   ├── home-slide-4.jpeg
+│    │    │   ├── home-slide-5.jpeg
+│    │    │   ├── home-slide-6.jpeg
+│    │    │   ├── home-slide-7.jpeg
+│    │    │   ├── home-slide-8.jpeg
+│    │    │
+│    │    ├── product-images/
+│    │    │   ├── product-image-1.jpeg
+│    │    │   ├── product-image-2.jpeg
+│    │    │   ├── product-image-3.jpeg
+│    │    │   ├── product-image-4.jpeg
+│    │    │   ├── product-image-5.jpeg
+│    │    │
+│    │    ├── product-thumb-images/
+│    │    │   ├── product-thumb-1.jpeg
+│    │    │   ├── product-thumb-2.jpeg
+│    │    │   ├── product-thumb-3.jpeg
+│    │    │   ├── product-thumb-4.jpeg
+│    │    │   ├── product-thumb-5.jpeg
+│    │
+│    ├── styles/
+│    │    default.css
+│    │
+│    ├── svgs/
+│    │    ├── arrow-left.svg
+│    │    ├── arrow-right.svg
+│    │    ├── facebook.svg
+│    │    ├── instagram.svg
+│    │    ├── logo-footer.svg
+│    │    ├── logo-header.svg
+│    │    ├── mini-cart.svg
+│    │    ├── star-active.svg
+│    │    ├── star-desactive.svg
+│    │    ├── star-icon.svg
+│    │    ├── star-white.svg
+│    │    ├── twitter.svg
+│
+├── src/
+│
+│    ├── components/
+│    │
+│    │    ├── BuyBox/
+│    │    │   ├── BuyBox.css
+│    │    │   ├── BuyBox.jsx
+│    │    │
+│    │    ├── FeaturedCollections/
+│    │    │   ├── FeaturedCollections.css
+│    │    │   ├── FeaturedCollections.jsx
+│    │    │
+│    │    ├── FilterGroup/
+│    │    │   ├── FilterGroup.css
+│    │    │   ├── FilterGroup.jsx
+│    │    │
+│    │    ├── Footer/
+│    │    │   ├── Footer.css
+│    │    │   ├── Footer.jsx
+│    │    │
+│    │    ├── Header/
+│    │    │   ├── Header.css
+│    │    │   ├── Header.jsx
+│    │    │
+│    │    ├── ProductCard/
+│    │    │   ├── ProductCard.css
+│    │    │   ├── ProductCard.jsx
+│    │    │
+│    │    ├── ProductDetails/
+│    │    │   ├── ProductDetails.css
+│    │    │   ├── ProductDetails.jsx
+│    │    │
+│    │    ├── ProductListing/
+│    │    │   ├── ProductListing.css
+│    │    │   ├── ProductListing.jsx
+│    │    │
+│    │    ├── ProductOptions/
+│    │    │   ├── ProductOptions.css
+│    │    │   ├── ProductOptions.jsx
+│    │    │
+│    │    ├── Section/
+│    │    │   ├── Section.css
+│    │    │   ├── Section.jsx
+│    │
+│    ├── pages/
+│    │    ├── HomePage.jsx
+│    │    ├── NotFound.jsx
+│    │    ├── ProductListingPage.jsx
+│    │    ├── ProductViewPage.jsx
+│    │
+│    ├── routes/
+│    │    ├── AppRoutes.jsx
+│    │
+│    ├── App.jsx
+│    ├── main.jsx
+│
+├── .eslintrc.cjs
+├── .gitignore
+├── helper.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── vite.configs.js
+├── yarn.lock
+```
+
+## Membros ativos do projeto
+
+|                                               Profile                                                |     Nome Completo     |                                                                                                                                                                                                                                                                                                          |
+| :--------------------------------------------------------------------------------------------------: | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|     [<img src="https://github.com/DevSaLLein.png" height="90px">](https://github.com/DevSaLLein)     | Isaac Lima de Andrade | [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/DevSaLLein) <br/> [<img src="https://img.shields.io/badge/-Instagram-hotpink?style=for-the-badge&logo=instagram&logoColor=white"/>](https://www.instagram.com/http.zaclimaaxs/) |
+| [<img src="https://github.com/LucasMarcelo85.png" height="90px">](https://github.com/LucasMarcelo85) | Lucas Marcelo N Souza | <div > <a href="https://github.com/LucasMarcelo85/Meu-portfolio" target="_blank"><img alt="" src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=yellow&style=for-the-badge" style="vertical-align:center" width="120" /></a> <br> [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white" align="center" width="120"/>](https://github.com/LucasMarcelo85)  <br> <a href="https://www.linkedin.com/in/marcelo-souza-882aab316" target="_blank" align="center" width="120"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center" width="120"></a> </div>                                                                                 |
+|   [<img src="https://github.com/MatheusDeV55.png" height="90px">](https://github.com/MatheusDeV55)   |                       |                                                                                  [<img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white"/>](https://github/MatheusDeV55)                                                                                  |
+
+## Licença
+
+-   O projeto está protegido pela "The Unlicense"
+
 
   ##
  
